@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MY MAIN CSS DEV </title>
+        <link rel="stylesheet" href="design.css">
+    </head>
+    <body>
+        <!-- ######################## MY HTML NAVBAR ######################### -->
+        <nav>
+            <ul class="topnav" id="dropdownclick">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#News">News</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#About">About</a></li>
+                <li class="navbar"><a href="#signup">Sign Up</a></li>
+                <li class="navbar"><a href="#signin">Sign In</a></li>
+                <li class="dropdownicon" onclick="dropdownMenu()"><a href="javascript:void(0);">&#9776;</a></li>
+            </ul>        
+        </nav>
+
+
+        <script>
+            function dropdownMenu() {
+                var x = document.getElementById("dropdownclick");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                    /* change topnav to topnav.responsive */ 
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+        <!-- ####################### THE BODY ########################## -->
+        <div class="container" id="linear">
+                <h3 class="luxy">@Luxy</h3>
+            <div class="row">
+                <div class="col-1">
+                    <div class="left-marg">
+                        <h1 class="large"> Crazy Radness</h1>
+                        <h1 class="large">Made for Developers</h1>
+                    </div>
+                    <form>
+                        <div class="left-marg">
+                            <h2 class="input">Username</h2>
+                            <input name="name" type="text" placeholder="Jhon">
+                            <h2 class="input">Password</h2>
+                            <input name="name" type="text" placeholder="0123456789">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-1">
+                    <div class="video-marg">
+                        <div class="video-container">
+                        <video width="560" height="312" controls autoplay muted src="./funny ball.mp4" type="movie/mp4"></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #################### THE HEADER SECTION-2 ################## -->
+        <header>
+            <h1 class="header-section header">The Standards of Awesomeness</h1>
+        </header>
+        <!-- ####################### ROW AND COL SECTION-2 #################### -->
+        <div class="container">
+            <div class="row">
+                <!-- ############ FIRST COL ########## -->
+                <div class="col-4">
+                    <div class="box">
+                        <div class="devs-icon">
+                            <img class="img" src="./devs-icon.PNG">
+                        </div>
+                        <label>Chat with Me</label>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quo animi rerum harum ratione nihil dolor assumenda? Animi dolores, quod ipsum illum aut asperiores nulla labore exercitationem iusto aspernatur expedita!</p>
+                    </div>
+                </div>
+                <!-- ################# SECOND COL############## -->
+                <div class="col-4">
+                    <div class="box">
+                        <div class="devs-icon">
+                            <img class="img" src="./devs-icon.PNG">
+                        </div>
+                        <label>Learn to Code</label>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quo animi rerum harum ratione nihil dolor assumenda? Animi dolores, quod ipsum illum aut asperiores nulla labore exercitationem iusto aspernatur expedita!</p>
+                    </div>
+                </div>
+                <!-- ####################### THIRD COL ##################### -->
+                <div class="col-4">
+                    <div class="box">
+                        <div class="devs-icon">
+                            <img class="img" src="./devs-icon.PNG">
+                        </div>
+                        <label>Build an Empire</label>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quo animi rerum harum ratione nihil dolor assumenda? Animi dolores, quod ipsum illum aut asperiores nulla labore exercitationem iusto aspernatur expedita!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button class="learn-more" href="#button">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <!-- ######################################### -->
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-7">
+                  <article>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quo animi rerum harum ratione nihil dolor assumenda? Animi dolores, quod ipsum illum aut asperiores nulla labore exercitationem iusto aspernatur expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quo animi rerum harum ratione nihil dolor assumenda? Animi dolores, quod ipsum illum aut asperiores nulla labore exercitationem iusto aspernatur expedita!</p>
+                  </article>
+                </div>
+                <div class="col-5">
+                  <div class="slopeicon">
+                      <img src="./img/download.jpeg">
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!-- ################################## -->
+        <footer class="footsy">
+            <div class="row">
+                <div class="col-3 mobile">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Blogs</li>
+                        <li>Career</li>
+                    </ul>
+                </div>
+                <!-- ######################### -->
+                <div class="col-3 mobile">
+                    <h1>Product</h1>
+                    <ul>
+                        <li>Computer</li>
+                        <li>iPad</li>
+                        <li>iPhones</li>
+                    </ul>
+                </div>
+                <!-- ######################### -->
+                <div class="col-3 mobile">
+                    <h1>Learn More</h1>
+                    <ul>
+                        <li>Developers</li>
+                        <li></li>
+                        <li>Hackers</li>
+                    </ul>
+                </div>
+                <!-- ######################### -->
+                <div class="col-3 mobile">
+                    <h1>Support</h1>
+                    <ul>
+                        <li>Help</li>
+                        <li>QA</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <!-- #################### -->
+            </div>
+        </footer>
+    </body>
+</html>

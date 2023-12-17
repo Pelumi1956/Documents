@@ -1,0 +1,389 @@
+/* ###########  The Header ########### */
+nav,
+header,
+footer {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+}
+/*################################ The Navbar ###################################*/
+nav {
+    width: 100%;
+    margin: 0;
+}
+
+nav ul {
+    background-color: green;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li {
+    list-style: none;
+    float: left;
+}
+ul.topnav li.navbar {
+    float:right;
+}
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+} 
+
+ul.topnav li a:hover{
+    background-color: white;
+    color: green;
+}
+ul.topnav li.dropdownicon {
+    display: none;
+}
+
+/* ############################# Mobile Phone ################################ */
+@media screen and (max-width:680px) {
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+    ul.topnav li.dropdownicon {
+        display: block;
+        float: right;
+    }
+    ul.topnav.responsive li.dropdownicon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    ul.topnav.responsive {
+        position: relative;
+    }
+
+    ul.topnav.responsive li {
+        display: inline;
+        float: none;
+    }
+
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+
+}
+/* ############### ROW ############ */
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.col-1 {width: 50%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 45%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/* ################# Box ################ */
+.box {
+    margin: auto;
+    text-align: center;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0,.15),
+    0 2px 3px 0 rgba(0,0,0,.1);
+}
+/* #################### BODY #################### */
+div.bet {
+    text-align: center;
+}
+div.bet img {
+    width: 300px;
+    border-radius: 5px;
+}
+.container {
+    background-color: #eee;
+    color: gray;
+    padding-top: 3%; 
+    padding-bottom: 5%; 
+    width: 100%;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.padbot {
+    padding-bottom: 0;
+}
+/* ######################### */
+div.begin {
+    background-color: #D3D3D3;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    margin-top: 2%;
+}
+div.begin h3 {
+    float: left;
+    margin: 5px;
+}
+div.begin h3 a {
+    display: block;
+    text-decoration: none;
+    color: red;
+    font-weight: 700;
+}
+div.begin h3 a:hover{
+    background-color: #D3D3D3;
+    color: gray;
+}
+/* ############################## */
+h1.black {
+    color: black;
+    margin: 15px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.diff {
+    background-color: green;
+}
+.marg {
+    margin: 10px;
+}
+.col {
+    color: black;
+}
+div.diff input {
+    background-color: white;
+    color: gray;
+    border: 4px solid gray;
+    font-size: 20px;
+    width: 450px;
+    padding: 5px;
+    border-radius: 4px;
+}
+div.mes {
+    margin: 10px;
+}
+div.mes input{
+    height: 400px;
+}
+div.sub input {
+    width: 100px;
+    padding: 5px;
+    margin: 10px;
+    background-color: red;
+    border: 3px solid gray;
+}
+.other {
+    color: white;
+    margin: 10px;
+}
+ul li a {
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.white {
+    color: white;
+}
+/*################################ */
+div.Ads {
+    text-align: center;
+    padding-top: 200px;
+}
+div.Ads img {
+    width: 300px;
+    border-radius: 5px;
+}
+/* ##################### */
+.moving {
+    margin-top: 100px;
+    padding: 10px;
+    text-align: center;
+    width: 97%;
+    background-color: gray;
+}
+/* ########## Header color ######### */
+.K-Drama {
+    margin: 10px;
+    text-align: left;
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+}
+/* ####################### */
+div.moving img {
+    width: 450px;
+    height: 420px;
+    margin: auto;
+}
+/* ################# bottom color ################# */
+/* ############################### */
+div.moving div.move b  a {
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+}
+div.moving table tr td{
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+div.row div.col-12 div.moving table {
+    margin-left: 10px;
+}
+div.row div.col-12 div.moving table tr td a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 550;
+    margin-left: 10px;
+    color: red;
+} 
+div.row div.col-12 div.moving table tr td a:hover {
+    color: red;
+}
+div.row div.col-12 div.moving table tr td a b {
+    margin-left: 10px;
+    float: left ;
+    color: #D3D3D3;
+    font-size: 15px;
+}
+/* ############# button color ################ */
+div.mbutton a button {
+    background-color: cadetblue;
+    color: white;
+    padding: 5px;
+    width: 80px;
+    float: right;
+    margin-right: 100px;
+}
+/* ########################### */
+/* ############# container ################### */
+div.color h3 {
+    font-size: 20px;
+}
+div.color {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 300px;
+}
+div.color input {
+    padding: 5px;
+    width: 400px;
+    height: 70px;
+    margin: 0px;
+    border: 2px solid gray;
+    border-radius: 7px;
+    font-size: 20px;
+}
+div.col-13 td img {
+    width: 35px;
+    height: 30px;
+}
+div.col-13 button {
+    background-color: green;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    color: white;
+}
+div.col-13 a button table tr td b {
+    font-size: 20px;
+}
+div.col-13 {
+    margin-top: 15px;
+}
+/* ######################## */
+div.hash {
+    background-color: #5c6f68;
+    color: white;
+    text-align: center;
+    padding-top: 7%;
+}
+div.hash h1 {
+    margin: 0;
+    font-size: 100px;
+    font-weight: 700;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* ################# button ###################3 */
+td img {
+    width: 50px;
+    height: 30px;
+}
+div.hash button {
+    padding: 0;
+    color: white;
+    text-align: center;
+    background-color: #5c6f68;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: auto;
+}
+div.hash div.row div.col-14 a {
+    text-align: center;
+    text-decoration: none;
+}
+a button table tr td {
+    font-size: 10px;
+}
+div.col-12 a button table tr td b.smaller {
+    font-size: 12px;
+    font-weight: 900;
+}
+div.col-14 {
+    margin-top: 10px;
+}
+/* ############################## */
+div.soci h2 {
+    color: #D3D3D3;
+    font-size: 30px;
+    margin-top: 50px;
+}
+div.soci hr {
+    width: 110px;
+}
+div.soci h3 a {
+    text-decoration: none;
+    color: #D3D3D3;
+    margin: 0;
+    padding: 0;
+}
+div.mymax {
+    color: #D3D3D3;
+    margin-top: 50px;
+    font-size: 20px;
+}
+/* ################################ */

@@ -1,0 +1,23 @@
+/* ###############MY FIRST SIGN ############### */
+.luxy {
+    background-color: blue;
+    color: yellow;
+    float: right;
+    border: 5px solid #666;
+    border-radius: 7px;
+    font-family: cursive;
+    height: 20px;
+    font-size: 10px;
+    box-shadow: 3px 3px darkblue;
+}
+img.circle {
+    border-radius: 40%;
+    width: 100px;
+}
+.head {
+    color: darkblue;
+    margin: 0;
+    padding: 0;
+}
+/* ################# MOBILE ################### */
+@media screen and 
