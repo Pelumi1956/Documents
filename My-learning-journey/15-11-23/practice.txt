@@ -1,0 +1,2 @@
+today i create a new repo and then push my final-project into it and then remove the connection locally (that is by removing the git) "rm -rf .git"
+and then lastly i clone it back to my folder

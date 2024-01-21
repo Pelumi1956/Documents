@@ -1,0 +1,5 @@
+- css rules still apply (inline vs external css)
+Props - Initial Setup
+refactor/clean up
+parameters
+arguments

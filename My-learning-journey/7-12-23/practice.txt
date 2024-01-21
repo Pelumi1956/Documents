@@ -1,0 +1,10 @@
+folder structure
+remove boilerplate
+first component
+typical component
+root component
+extension and setting.json
+first component in detail
+jsx rules
+nest component
+react developer

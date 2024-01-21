@@ -1,0 +1,8 @@
+JSX CSS (inline style)
+- style prop
+- jsx means going to the land of js
+- value is an object key/value
+Example
+<h4 style={{ color: "#617d98", fontSize: "0.75", marginTop: "0.5rem" }}>
+    Joredan Moore
+  </h4>

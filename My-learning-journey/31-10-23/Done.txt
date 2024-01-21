@@ -1,0 +1,19 @@
+Date : Tue, 31 Oct
+I learnt about the following list of command today
+git init
+git status
+git add
+git commit
+git branch
+dif
+git remote
+git push
+clone
+checkout
+pull
+fetch
+
+
+creating repository 
+online first
+offline first

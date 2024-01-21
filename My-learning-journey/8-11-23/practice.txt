@@ -1,0 +1,9 @@
+today i learn about
+styling link(css links)
+pseudo class
+css list
+pseudo element
+content
+value
+mini project 
+nav

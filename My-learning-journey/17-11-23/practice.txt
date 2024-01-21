@@ -1,0 +1,10 @@
+today i wrote my first function
+i wrote a function that log the sum
+i wrote a function that increment
+increment on click
+i display the count
+the document object model
+i display the count with innertext
+what is a string
+i wrote my first string variable
+log a greeting to the console

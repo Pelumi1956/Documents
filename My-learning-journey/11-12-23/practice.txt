@@ -1,0 +1,6 @@
+how to create index.css in src
+@media
+optical video
+external images
+local images(public folder)
+local images(src folder)

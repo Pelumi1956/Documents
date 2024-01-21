@@ -1,0 +1,15 @@
+Date : Monday, 0ct 30
+I learned About command prompt (CMD) 
+I learned About GUI and CLI
+GUI : "Graghical User Interface". This lets a user interact with the device/system with the help of graphical elements, like windows, menus, icon etc
+CLI : "Command Line Interface". This lets a user interact with their device/system with the help of various commands
+    NOTE : { A directory is also refers to as folder.
+    Dot (.) means the current folder.
+    Dot Dot (..) means the parent folder.
+    Cd means change directory.
+    Cls means Clear screen.
+    Help.
+    Md/mkdir means make a directory or create a folder.
+    Ren means rename.
+    Del means delete.
+    }

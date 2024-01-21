@@ -1,0 +1,2 @@
+I collected the zip file of nvm and node
+and also tried to unzip it 

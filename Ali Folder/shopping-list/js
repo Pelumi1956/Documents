@@ -1,0 +1,68 @@
+//data types
+undefined, 
+
+null, 
+
+Boolean, 
+
+String, 
+
+Symbol, 
+
+objects, 
+
+Number
+
+const b = [1, 3, 2, 6, 5]
+
+class String {
+    length
+
+    toLowerCase()
+}
+
+class Car {,
+
+    // properties
+    tires = 4
+    sideMirrors = 2
+    doors = 4
+    windScreen = 1
+    color = "green"
+
+    // methods
+    move()
+    stop()
+    accelerate()
+    reverse()
+    horn()
+}
+// variables
+var 
+let
+const
+
+// assignment operators
+=
+===
+==
+< 
+>
+!
+&&
+||
+[]
+
+// statements
+if
+else
+
+// CODE OUTPUT
+\'
+\"
+\\
+\n
+\r
+\t
+\b
+\f

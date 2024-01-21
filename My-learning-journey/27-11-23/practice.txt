@@ -1,0 +1,5 @@
+today i created the cards array
+push a new card to array
+counting in javascript
+write your first loop
+for loops and array

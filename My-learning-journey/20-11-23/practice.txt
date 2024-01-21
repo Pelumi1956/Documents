@@ -1,0 +1,3 @@
+string vs number
+render a welcome message
+improve the message with string concatenation

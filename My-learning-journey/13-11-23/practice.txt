@@ -1,0 +1,8 @@
+I learn about
+variables
+dark mode
+light mode
+functions
+animation
+transform
+transiton

@@ -1,0 +1,7 @@
+Requirement
+i. HTML/CSS
+ii. JAVASCRIPT
+fundamentals
+ctr + c - stop the serer
+npm start to start the server
+https://github.com/Pelumi1956/React.git

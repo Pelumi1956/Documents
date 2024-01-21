@@ -1,0 +1,7 @@
+ISSUE
+sir i don't really understand how to push .
+what is the main work of "pwd" print working directory.
+what is the work of git init
+can i unpush what have been pushed
+if i make any correction how can i make it show on github with the work i pushed b4
+and i didn't understand how u did the online first.

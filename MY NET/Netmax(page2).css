@@ -1,0 +1,118 @@
+/* ##################### MY NAVBAR  ###################### */
+
+/* ###########  The Header ########### */
+nav,
+header,
+footer {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+}
+/*################################ The Navbar ###################################*/
+nav {
+    width: 100%;
+    margin: 0;
+}
+
+nav ul {
+    background-color: green;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li {
+    list-style: none;
+    float: left;
+}
+ul.topnav li.navbar {
+    float:right;
+}
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+} 
+
+ul.topnav li a:hover{
+    background-color: white;
+    color: green;
+}
+ul.topnav li.dropdownicon {
+    display: none;
+}
+
+/* ############################# Mobile Phone ################################ */
+@media screen and (max-width:680px) {
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+    ul.topnav li.dropdownicon {
+        display: block;
+        float: right;
+    }
+    ul.topnav.responsive li.dropdownicon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    ul.topnav.responsive {
+        position: relative;
+    }
+
+    ul.topnav.responsive li {
+        display: inline;
+        float: none;
+    }
+
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+
+}
+/* #################### BODY #################### */
+.container {
+    background-color: #eee;
+    color: gray;
+    padding-top: 3%; 
+    padding-bottom: 5%; 
+    width: 100%;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* ######################### */
+div.begin {
+    background-color: #D3D3D3;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+div.begin h3 {
+    float: left;
+    margin: 5px;
+}
+div.begin h3 a {
+    display: block;
+    text-decoration: none;
+    color: red;
+    font-weight: 700;
+}
+div.begin h3 a:hover{
+    background-color: #D3D3D3;
+    color: gray;
+}

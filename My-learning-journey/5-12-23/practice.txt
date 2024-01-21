@@ -1,0 +1,2 @@
+Today i solved the problem of installing the node
+i started the react video

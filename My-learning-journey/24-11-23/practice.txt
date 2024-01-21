@@ -1,0 +1,10 @@
+Today i did 
+display sum
+display the cards
+new card button
+add the sum when the new card is clicked
+rename the startGame function 
+intro to array
+array with multiple data types
+array indexes
+adding and removing items from arrays

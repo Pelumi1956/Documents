@@ -1,0 +1,17 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+.list-item {
+    background-color: green;
+}
+
+.close-btn{
+    float: right;
+    font-size: medium;
+
+}

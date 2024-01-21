@@ -1,0 +1,16 @@
+.btn-large {
+    padding: 30px 40px;
+    background-color: green;
+    color: #fff
+}
+
+.btn-large .btn-sm {
+    padding: 10px 15px;
+    background-color: teal;
+    color: #000
+}
+
+.main-nav {
+    background-color: gray;
+    border: 1px solid #000
+}

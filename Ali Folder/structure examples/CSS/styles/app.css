@@ -1,0 +1,30 @@
+body {
+  width: 100%;
+  padding: 40px 50px;
+}
+
+#footer {
+  color: white;
+  backgroung-color: #333;
+}
+
+#header {
+  padding: 20px;
+  width: 100%;
+}
+
+.btn-large {
+  padding: 30px 40px;
+  background-color: green;
+  color: white;
+}
+.btn-large .btn-sm {
+  padding: 10px 15px;
+  background-color: teal;
+  color: black;
+}
+
+.main-nav {
+  background-color: grey;
+  border: 1px solid black;
+}

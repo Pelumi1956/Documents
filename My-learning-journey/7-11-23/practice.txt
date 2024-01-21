@@ -1,0 +1,11 @@
+I learn about 
+css box model
+how to turn box into circle
+typography
+line through
+capitalize
+text-indent
+line-height
+letter-spacing
+word-spacing
+font properties

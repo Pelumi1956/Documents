@@ -1,0 +1,9 @@
+today i learned about 
+external css
+internal css
+inline css
+selector
+css validation service web page
+ruleset
+inheritance
+* {} universal selector

@@ -1,0 +1,14 @@
+Today i did 
+blackjack game
+added the firstCard, secondCard, and sum
+if...else conditionals
+my first if..else statement
+if /else...if/else statement
+the if..else statement for our game
+added the blackjack variable
+added the isAlive variable
+let's practice boolen conditions
+link to stylesheet
+make the start button work
+display the message on the page
+display the sum

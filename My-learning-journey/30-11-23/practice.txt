@@ -1,0 +1,36 @@
+let's build a chrome extension
+add button and input tag
+style the button and input tag
+make the input button work with onclick
+refactor to addEventListener
+refactor to addEventListener
+write your first addEventListener
+create the myLeads array and inputEl
+when to say let and const
+push to the myLeads array
+push the value from the input field
+use a loop to log out leads 
+create the unordered list
+render the leads in the unordered list
+how to render <li> element with innerHTML
+more innerHTML practice
+improving the performance of our app
+create the render function
+add the <a> tag
+template string
+template strings
+preparing the deployment
+deploying the chrome extension
+what is localStorage
+your first localStorage
+storing arrays in localStorage
+save the leads to localStorage
+get the leads from localStorage
+truthy and falsy statements
+guess the expression truthy or falsy
+checking localStorage before rendering
+make the delete button work
+how function parameters can improve our code
+function with multiple parameters
+write your first function parameters
+arrays as parameters create the tabBtn

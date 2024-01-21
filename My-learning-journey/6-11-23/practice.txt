@@ -1,0 +1,8 @@
+Today i learn about 
+background color
+color (font-color)
+Different ways of setting colors
+a. color name
+b. rgb
+c. hexadecimal
+css unit 

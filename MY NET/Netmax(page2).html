@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Netmax</title>
+        <link rel="stylesheet" href="Netmax(page2).css">
+    </head>
+    <body>
+           <!-- ######################## MY HTML NAVBAR ######################### -->
+          <nav>
+              <ul class="topnav" id="dropdownclick">
+                  <li><a>Netmax</a></li>
+                  <li><a href="Netmax.html">Home</a></li>
+                  <li><a href="#post">Posts</a></li>
+                  <li><a href="#videos">Videos</a></li>
+                  <li><a href="#trending">Trending</a></li>
+                  <li><a href="#Contact Us">Contact Us</a></li>
+                  <li><a href="#About">About</a></li>
+                  <li class="navbar"><a href="#signup">Subscribe</a></li>
+                        <li class="dropdownicon" onclick="dropdownMenu()"><a href="javascript:void(0);">&#9776;</a></li>
+              </ul>        
+          </nav>
+        
+        
+          <script>
+               function dropdownMenu() {
+                    var x = document.getElementById("dropdownclick");
+                    if (x.className === "topnav") {
+                          x.className += " responsive";
+                            /* change topnav to topnav.responsive */ 
+                    } else {
+                            x.className = "topnav";
+                    }
+                }
+         </script>
+           <!-- ######################## -->
+           <div class="container">
+              <div class="begin">
+                  <h3><a href="Home.html">Home /</a></h3>
+                  <h3><a></a></h3>
+                  <h3>/ Movies</h3>
+              </div>
+           </div>
+
+    </body>
+</html>

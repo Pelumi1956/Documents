@@ -1,0 +1,4 @@
+how to get the current tab 
+use the chrome API to get the tab
+deploy the final version
+recap

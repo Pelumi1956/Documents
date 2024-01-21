@@ -1,0 +1,8 @@
+Write ur first array-based loop
+use a loop to render cards
+how can we avoid to hard-code card value
+returning values in function
+using a function to set the values
+generating random numbers with Math.random()
+Math.random() * 6
+flooring the numbers with Math.random()

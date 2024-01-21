@@ -1,0 +1,11 @@
+completing our dice function
+completing getRandomNumber function
+Assign values in the startGame function
+the logical and operator
+the logical OR operator
+write ur first logical operator
+object sneak peek
+intro to object
+create ur first object
+use an object to store a player data
+congrats and recap

@@ -1,0 +1,90 @@
+.jumbotron {
+    text-align: center;
+    background: none;
+}
+
+.section-light {
+    background-color: #eceeef;
+    padding: 2em;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
+}
+
+.section-dark {
+    background-color: #ccc;
+    padding: 2rem;
+}
+
+.cool-wrapper {
+    margin-top: 20px;
+}
+
+button.btn-cool {
+    background-color: #ff0000;
+    color: #fff;
+    display: block;
+    margin: auto;
+}
+
+h5.modal-title {
+    margin: auto;
+}
+
+.modal-form-wrapper {
+    padding: 2rem;
+}
+
+.img-center {
+    display: block;
+    margin: auto;
+}
+
+.btn-center {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.btn-center:hover {
+    cursor: pointer;
+}
+
+.footer-img {
+    padding: 15px;
+}
+
+.fa {
+    margin: 10px;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-google-plus-square {
+    color: #c32f10;
+}
+
+.fa-instagram {
+    color: #fff;
+}
+
+.social-wrapper {
+    margin: auto;
+}
+
+@media screen and (max-width: 680px) {
+    .display-3 {
+        font-size: 28pt;
+    }
+    .prodigy-wrapper img {
+        display: block;
+        margin: 0 auto;
+    }
+}

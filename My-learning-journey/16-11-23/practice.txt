@@ -1,0 +1,4 @@
+today i begin with 
+Setting up my javaScript file
+Basic mathematical operation
+Reassigning and incrementing

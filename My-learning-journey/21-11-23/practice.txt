@@ -1,0 +1,13 @@
+today i learned how to use plus equal for count
+i created a save feature
+debugging online
+recap (script tag
+varaibles
+numbers
+string
+console.log()
+functions
+The DOM
+getElementById()
+innerText
+textContent)
